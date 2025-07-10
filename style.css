@@ -30,6 +30,12 @@ button {
   color: #ffffff;
 }
 
+button:hover{
+    border: 2px solid #4e47ff;
+    color: #252432;
+    background-color: transparent;
+}
+
 /* ========================== Body Section ========================== */
 * {
   padding: 0;
