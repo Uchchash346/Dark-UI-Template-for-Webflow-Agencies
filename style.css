@@ -1,0 +1,104 @@
+/* ========================== Fonts ========================== */
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* ========================== Global Styles ========================== */
+.primary-color {
+  color: #4e47ff;
+}
+.heading-text-color {
+  color: #252432;
+}
+.normal-text-color {
+  color: ;
+}
+
+button {
+  border-radius: 10px;
+  background-color: #4e47ff;
+  padding: 10px 36px;
+  border: none;
+  color: #ffffff;
+}
+
+/* ========================== Body Section ========================== */
+* {
+  /* margin: 0; */
+  padding: 0;
+
+  /* box-sizing: border-box; */
+  /* max-width: 1140px; */
+}
+.body-section {
+  /* margin-left: 300px;
+  margin-right: 300px; */
+}
+
+/* ========================== Nav Section ========================== */
+.navigation-area {
+  /* width: 1140px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin: 0 200px; */
+}
+.navbar-logo {
+  font-size: 34px;
+  font-weight: bold;
+}
+
+/* ========================== Hero Section ========================== */
+.main-hero-section {
+  background-image: url("./assets/Hero-bg.png");
+}
+.header-section-area {
+  /* justify-content: space-between; */
+  height: 100vh;
+  background-repeat: no-repeat;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.heading-title-hero-section {
+  font-size: 65px;
+  padding: 0 235px;
+  text-align: center;
+  margin-top: 20%;
+}
+
+.hero-section-btn-area{
+    text-align: center;
+}
+
+/* ========================== Launching Section ========================== */
+.launching-section-area {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 300px 50px 300px;
+gap: 220px;
+}
+
+.launching-section-heading-title{
+    font-size: 42px;
+}
+
+.launching-section-heading-description{
+    font-size: 24px;
+}
+
+.launching-section-img {
+  border-radius: 48px;
+}
+
+.launching-section-left-column {
+  /* vertical-align: middle; */
+}
