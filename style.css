@@ -32,15 +32,7 @@ button {
 
 /* ========================== Body Section ========================== */
 * {
-  /* margin: 0; */
   padding: 0;
-
-  /* box-sizing: border-box; */
-  /* max-width: 1140px; */
-}
-.body-section {
-  /* margin-left: 300px;
-  margin-right: 300px; */
 }
 
 /* ========================== Nav Section ========================== */
@@ -97,8 +89,4 @@ gap: 220px;
 
 .launching-section-img {
   border-radius: 48px;
-}
-
-.launching-section-left-column {
-  /* vertical-align: middle; */
 }
