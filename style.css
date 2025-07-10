@@ -19,7 +19,7 @@
   color: #252432;
 }
 .normal-text-color {
-  color: ;
+  color: rgba(37, 36, 50, 0.5);
 }
 
 button {
@@ -30,10 +30,10 @@ button {
   color: #ffffff;
 }
 
-button:hover{
-    border: 2px solid #4e47ff;
-    color: #252432;
-    background-color: transparent;
+button:hover {
+  border: 2px solid #4e47ff;
+  color: #252432;
+  background-color: transparent;
 }
 
 /* ========================== Body Section ========================== */
@@ -43,11 +43,9 @@ button:hover{
 
 /* ========================== Nav Section ========================== */
 .navigation-area {
-  /* width: 1140px; */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* margin: 0 200px; */
 }
 .navbar-logo {
   font-size: 34px;
@@ -59,7 +57,6 @@ button:hover{
   background-image: url("./assets/Hero-bg.png");
 }
 .header-section-area {
-  /* justify-content: space-between; */
   height: 100vh;
   background-repeat: no-repeat;
   margin-left: 300px;
@@ -73,8 +70,8 @@ button:hover{
   margin-top: 20%;
 }
 
-.hero-section-btn-area{
-    text-align: center;
+.hero-section-btn-area {
+  text-align: center;
 }
 
 /* ========================== Launching Section ========================== */
@@ -82,17 +79,47 @@ button:hover{
   display: flex;
   justify-content: space-between;
   margin: 50px 300px 50px 300px;
-gap: 220px;
+  gap: 220px;
 }
 
-.launching-section-heading-title{
-    font-size: 42px;
+.launching-section-heading-title {
+  font-size: 42px;
 }
 
-.launching-section-heading-description{
-    font-size: 24px;
+.launching-section-heading-description {
+  font-size: 24px;
 }
 
 .launching-section-img {
   border-radius: 48px;
+}
+
+/* ========================== Productive Users Container ========================== */
+.productive-users-container {
+  /* height: 306px; */
+  background-color: rgba(78, 71, 255, 0.1);
+  width: 1140px;
+  margin: auto;
+  padding: 80px 50px;
+  border-radius: 24px;
+}
+
+.productive-users-heading-title {
+  font-size: 38px;
+  text-align: center;
+}
+
+.counting-items {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.counting-single-item-title {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.counting-single-item-description {
+  font-size: 20px;
 }
