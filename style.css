@@ -36,9 +36,14 @@ button:hover, .submit-btn:hover {
   background-color: transparent;
 }
 
+main{
+    background-color: #F5F8FF;
+}
+
 /* ========================== Body Section ========================== */
 * {
   padding: 0;
+  margin: 0;
 }
 
 /* ========================== Nav Section ========================== */
@@ -78,7 +83,8 @@ button:hover, .submit-btn:hover {
 .launching-section-area {
   display: flex;
   justify-content: space-between;
-  margin: 50px 300px 50px 300px;
+  margin: 0px 300px 50px 300px;
+  padding-top: 50px;
   gap: 220px;
 }
 
@@ -221,6 +227,10 @@ button:hover, .submit-btn:hover {
   text-align: center;
 }
 
+.get-started-focus-button{
+    margin-top: 30px;
+}
+
 .ready-to-focus-banner-img {
   margin-top: 20px;
   height: auto;
@@ -232,9 +242,8 @@ button:hover, .submit-btn:hover {
 .contact-section-area {
   display: flex;
   width: 1140px;
-  margin: auto;
+  margin: 100px auto 100px auto;
   gap: 80px;
-  margin-top: 50px;
 }
 
 .contact-section-column-left {
