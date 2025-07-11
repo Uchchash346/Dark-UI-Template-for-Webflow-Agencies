@@ -303,6 +303,7 @@ input::placeholder {
 .footer-section-area {
   padding-top: 221px;
   padding-bottom: 221px;
+  height: 128px;
 }
 
 .footer-section {
